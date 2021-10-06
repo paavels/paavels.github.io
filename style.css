@@ -1,0 +1,55 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18pt;
+    color: #333;
+    background-color: #fcfcfc;
+}
+
+h1 {
+    font-size: 38pt;
+    color: #666;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 24pt;
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+#wrapper {
+    display: flex;
+}
+
+#content {
+    flex-flow: column wrap;
+    margin-left: 10%;
+    width: 70%;
+    margin-top: 100px;
+}
+
+@media (max-width: 1280px) {
+    #content {
+        flex-flow: column wrap;
+        width: 80%;
+        margin-top: 20px;
+    }
+    
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 11pt;
+    color: #666;
+}
+
